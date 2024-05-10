@@ -1,0 +1,520 @@
+---
+title: "Misinformation in den sozialen Medien"
+author: "Gastvorlesung von Jula Luehring"
+date: "13. Mai 2024"
+format: 
+  revealjs: 
+    seal: false
+    transition: "slide"
+    theme: [default, custom.scss] #custom style file
+    #incremental: true
+    aspect-ratio: 16:9
+    slide-number: true
+    #footer: "Misinformation in den sozialen Medien" 
+title-slide-attributes:
+    data-background-color: "#2A76DD" #univie color
+    data-background-size: cover
+logo: "logos/uni_wien_logo_blue.jpg"
+editor: visual #visual editor
+---
+
+# Vorstellung
+
+## Jula Lühring, M.Sc.
+
+::: columns
+::: {.column width="60%"}
+-   Studium in Bremen und Amsterdam
+-   Arbeit im Bereich der Demokratieförderung
+-   Doktorandin im Computational Communication Science Lab & Complexity Science Hub
+
+\
+Mail: [jula.luehring\@univie.ac.at](jula.luehring@univie.ac.at)
+
+:::
+
+::: {.column width="40%"}
+![](images/JL-bw.jpeg){width="400"}
+![](logos/logos-combined.png){width="800"}
+
+:::
+
+:::
+
+
+# Misinformation in den Schlagzeilen
+
+## Misinformation als eine der größten Gefahren?
+
+![](images/WEF-wide.png){width="594"}
+
+::: notes
+-   Das Weltwirtschaftsforum hat gerade wieder Mis- und Desinformation als aktuell größtes global Risiko ernannt
+
+-   Dieses Ranking baut auf Umfragen auf, und spiegelt die aktuelle Wahrnehmung von Misinformation wider
+
+-   Wir beleuchten das heute mal ein bisschen nuancierter
+:::
+
+# PART I: Was ist Misinformation?
+
+## Im Kontext der "Information Disorder"
+
+::: columns
+::: {.column width="60%"}
+![Wardle & Derakhshan, 2017](images/Information-Disorder-Source-Wardle-and-Derakhshan-2017.png){width="500"}
+:::
+
+::: {.column width="40%"}
+::: fragment
+-   Trennung von Mis- und Desinformation eher künstlich
+
+-   Fake News als Subtyp von Desinformation
+
+-   Fokus auf Schädlichkeit
+:::
+
+:::
+:::
+
+::: fragment
+### Misinformation = unwahre Informationen ohne bestimmte Intention
+:::
+
+::: notes
+-   Laut der Definition von den Autor:innen sind Mis- und Desinformation zwei verschiedene Oberbegriffe für Falschnachrichten, die aber mit Malinformation, also Hassrede überlappen
+
+-   Ich mag diese Definition weil sie einen Fokus auf Schädlichkeit liegt: Information kann falsch sein und keinen Schaden anrichten, aber auch richtig aber hasserfüllt sein und großen Schaden anrichten
+
+-   Trotz der Trennung wird der Begriff Misinformation in der Praxis eher als Oberbegriff verwendet, in der Forschung ist es oft schwer die Intention festzustellen
+
+-   Hier wird Misinformation in der Regel als unwahre oder falsche Informationen bezeichnet, die keine bestimmte Intention hat
+:::
+
+## Subtypen
+
+
+-   Zwei Dimensionen: Intention vs. Wahrheitsgehalt
+
+![Tandoc et al., 2018](images/Tandoc-Table.png){width="600"}
+
+::: fragment
+$\rightarrow$ Aber: Fake News inzwischen eher ein politisiertes Buzzword!
+:::
+
+::: notes
+-   Nach der Definition der Autor:innen können verschiedene Typen von Misinformation anhand der Intention und des Wahrheitsgehalts geclustered werden
+
+-   Hier werden Formen wie Satire und Parodien mit einbegriffen, aber auch Pseudojournalismus und Werbung, die oft ökonomischen Interessen folgen
+
+-   Tatsächlich gibt es aber auch sehr viele Formen in der Mitte: dekontextualisierte Informationen und die meisten Meinungsartikel
+:::
+
+## Wie sieht das in der Praxis aus?
+
+Beispiel 1: Unüberprüftes Teilen von Informationen
+
+![](images/ronaldo.png){width="700"}
+
+$\rightarrow$ unabsichtliche Fehler
+
+## Wie sieht das in der Praxis aus?
+
+Beispiel 2: Falsche Zeugenaussagen
+
+![](images/bildzeitung.jpeg){width="700"}
+
+$\rightarrow$ dekontextualisierende Interpretationen
+
+## Wie sieht das in der Praxis aus?
+
+Beispiel 3: Pseudojournalismus
+
+![](images/voice-of-europe.png){width="700"}
+
+$\rightarrow$ politisch motivierte Desinformationskampagnen
+
+## Mögliche Konsequenzen von Misinformation
+
+### Auf individueller Ebene
+
+::: incremental
+-   kognitiv (Effekte auf Wissen)
+
+-   einstellungsbezogen (Effekte auf Meinungen)
+
+-   emotional (Effekte auf Gefühle)
+
+-   Verhalten
+:::
+
+::: footer
+Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Guess et al., [2022](https://doi.org/10.37016/mr-2020-004); Moeller et al., [2020](https://www.die-medienanstalten.de/fileadmin/user_upload/die_medienanstalten/Service/Ver%C3%B6ffentlichungen/Gutachten/GVK_Gutachten_final_WEB_bf.pdf)
+:::
+
+::: notes
+-   Studien haben gezeigt, dass Misinformation zu Wahrnehmungsverzerrungen, sowohl auf Ebene des Wissens, Meinungen und Gefühlen führen kann
+
+-   Sowohl tieferliegende Glaubenssätze als auch Verhalten werden kaum von Misinformation beeinflusst
+
+-   Allerdings kann finanziell motivierte Desinformation potenziell zu Kaufentscheidungen führen
+
+-   Es gibt jedoch keine Beweise dafür, dass Mis- und Desinformation Wahlentscheidungen beeinflusst hat
+:::
+
+## Mögliche Konsequenzen von Misinformation
+
+### Auf gesellschaftlicher Ebene
+
+::: incremental
+-   gruppenbezogene Wahrnehmungsverzerrungen
+
+-   Mobilisierung und Spaltung
+
+-   Zynismus & verringertes Vertrauen in die Medien und demokratische Institutionen
+:::
+
+::: footer
+Scheufele et al., [2020](https://issues.org/covid-19-communication-war/); van der Meer et al., [2023](https://doi.org/10.1080/1461670X.2023.2187652); Weikmann et al., [2024](https://doi.org/10.1177/19401612241233539)
+:::
+
+::: notes
+-   Die gesamtgesellschaftlichen Konsequenzen sind dafür umso folgenreicher
+
+-   Misinformation kann die Wahrnehmung von ganzen Gruppen verzerren, das ist das was wir zu Corona-Zeiten in den Nachrichten gesehen haben
+
+-   Es kann zu Mobilisierungs- und Spaltungsprozessen beitragen
+
+-   Und weil es oft bestimmte Weltansichten und Inhalte pushed, kann es zur Zynismus führen
+
+-   Aber Debatten um die Glaubwürdigkeit von Information führen gesamtgesellschaftlich zu verringertem Vertrauen in die Medien
+:::
+
+# PART II: Realitätscheck
+
+## Wie verbreitet ist Misinformation?
+
+![Altay et al., 2022](images/altay-spread.png){width="600"}
+
+\
+
+**1-6% in fünf Studien von 2016-2019**
+
+$\rightarrow$ kleiner Anteil des Nachrichtenkonsums
+
+::: footer
+Allcott & Gentzkow, [2017](https://pubs.aeaweb.org/doi/10.1257/jep.31.2.211); Allen et al., [2020](https://doi.org/10.1126/sciadv.aay3539); Altay et al., [2022](https://journalqd.org/article/view/3617); Guess et al., [2020](https://www.nature.com/articles/s41562-020-0833-x)
+:::
+
+::: notes
+-   Wenn wir uns die Verbreitung von Misinformation anschauen, dann wird aber alles was ich eben gesagt habe stark relativiert
+-   Misinformation erreicht im Schnitt nur 1 bis 6% der Gesellschaften und zuverlässige Informationen sind weiter verbreitet
+-   Auf vielen Plattformen ist der Großteil des Contents nicht mal politisch, sondern Pornos
+-   Hier in dem Schaubild sieht mans für die USA wo grün gute und rot falsche Informationen sind
+-   Und die USA sind tatsächlich auch ein Fall, der immer als schlimmes Beispiel angeführt wird
+-   Eine Studie hat auch gezeigt, dass in Deutschland, Frankreich, den USA, und Großbritannien während der Pandemie mehr und mehr auf zuverlässige Quellen zurückgegriffen wurde
+-   Und auch das Vertrauen in die Medien hat in Deutschland zu der Zeit etwas zugenommen
+:::
+
+## Und wie hat sich das mit den sozialen Medien verändert?
+
+::: incremental
+-   Ursprung von Misinformation liegt nicht in sozialen Medien, aber existierende Mechanismen werden eventuell verstärkt:
+
+    -   Negative und aufbrausende Emotionen
+
+    -   Popularitätssignale
+
+    -   Superspreader
+:::
+
+::: fragment
+$\rightarrow$ Überlappt mit Hassrede und Konflikt zwischen sozialen Gruppen
+:::
+
+::: footer
+Avram et al., [2020](https://doi.org/10.37016/mr-2020-033); Bail, [2020](https://press.princeton.edu/books/paperback/9780691241401/breaking-the-social-media-prism?_gl=1*1sm9nvg*_up*MQ..*_ga*OTczODAyMzg1LjE3MTUxNzY3NDE.*_ga_N1W9JWKLY3*MTcxNTE3Njc0MC4xLjAuMTcxNTE3Njc0MC4wLjAuMjA1NDI4OTg1OQ); Lazer et al., [2018](https://doi.org/10.1126/science.aau2706); Mosleh et al., [2024](https://doi.org/10.1093/pnasnexus/pgae111); Watts et al., [2021](https://doi.org/10.1126/science.aau2706)
+:::
+
+::: notes
+-   Es ist sehr schwer zu messen, ob soziale Medien die Verbreitung von Misinformation verschlimmern und die Forschung ist sich da uneinig
+-   Grundsätzlich hat Misinformation aber schon lange lange vor den sozialen Medien existiert
+-   Aber es gibt Mechanismen, die offline existieren, die durch algorithmische Systeme in sozialen Medien eventuell verstärkt werden und zur Verbreitung von Misinformation führen
+-   Zum Beispiel erwecken negative Nachrichten und Popularitätssignale with Likes Aufmerksamkeit von User:innen, sodass der Content dann wiederum algorithmisch hervorgehoben wird, was wiederum zu mehr Popularität führt
+-   Oft ist das Content, der von User:innen produziert wird, die sehr extrem und aktiv ihre Meinung kundtun
+-   Daher überlappt die Verbreitung von Misinformation stark; Misinformation ist oft hasserfüllt, und hetzt gegen andere Gruppen
+:::
+
+## Und wie hat sich das mit den sozialen Medien verändert?
+
+-   Minderheit der User:innen teilt Großteil der Falschinformation:
+
+    -   1% User teilt 75% (2018-2019), 5% User teilt 50% (2016)
+
+-   Wer teilt?
+
+    -   Politiker:innen teilen 20% (\~69% des Engagement mit Fehlinformation)
+
+    -   extreme Superspreader
+
+::: fragment
+$\rightarrow$ Mensch oder Algorithmus?
+:::
+
+::: footer
+Brennen et al., [2020](https://reutersinstitute.politics.ox.ac.uk/types-sources-and-claims-covid-19-misinformation); Grinberg et al., [2019](https://doi.org/10.1126/science.aau2706); Osmundsen et al., [2021](https://www.cambridge.org/core/journals/american-political-science-review/article/abs/partisan-polarization-is-the-primary-psychological-motivation-behind-political-fake-news-sharing-on-twitter/3F7D2098CD87AE5501F7AD4A7FA83602); Robertson et al., [2023](https://www.nature.com/articles/s41586-023-06078-5); Törnberg, [2022](https://www.pnas.org/doi/10.1073/pnas.2207159119)
+:::
+
+::: notes
+-   Wir sehen also auch in den sozialen Medien, dass nur 1% der User:innen den Großteil an Misinformation teilt
+-   Das sind oft Politiker:innen selbst oder extreme Superspreader
+-   Hier wiederholt sich also die Frage: Sind das wirklich die Algorithmen oder ist das ein Eliten-Problem, das wir auch offline haben?
+:::
+
+## Mögliche Konsequenzen von Misinformation
+
+### Auf individueller Ebene
+
+-   kognitiv (Effekte auf Wissen)
+
+-   *einstellungsbezogen (Effekte auf Meinungen)???*
+
+-   emotional (Effekte auf Gefühle)
+
+-   *Verhalten???*
+
+### $\rightarrow$ sehr limitierte Effekte!
+
+::: footer
+Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Guess et al., [2022](https://doi.org/10.37016/mr-2020-004); Moeller et al., [2020](https://www.die-medienanstalten.de/fileadmin/user_upload/die_medienanstalten/Service/Ver%C3%B6ffentlichungen/Gutachten/GVK_Gutachten_final_WEB_bf.pdf)
+:::
+
+::: notes
+-   Daher würde ich diese Effekte relativieren und sagen, dass es kaum Effekte auf die Allgemeinheit gibt, aber sehr starke Effekte auf kleine Gruppen, die sowieso schon anfällig dafür sind
+-   Gleichzeitig 
+-   Wir gucken jetzt mal warum das so ist
+:::
+
+# PART III: Die Psychologie dahinter
+
+## Warum glauben Menschen an Misinformation?
+
+### Erklärung 1: Kognition
+
+![](images/ecker-halb.png){width="400"}
+
+::: footer
+Ecker et al., [2023](https://www.nature.com/articles/s44159-021-00006-y); Mercier, [2020](https://press.princeton.edu/books/hardcover/9780691178707/not-born-yesterday)
+:::
+
+::: notes
+-   Aus den Kognitionswissenschaften kommt die Theorie, dass es zwei Modi der Informationsverarbeitung gibt
+
+-   Das basiert auf dem Psychologen Daniel Kahnemann, demnach man Informationen schnell und einfach verarbeiten kann oder rational und elaboriert
+
+-   So kommt es dazu, dass Menschen in verschiedenen Situationen unterschiedlich gut darin sind, logisch zu denken und Misinformation zu erkennen
+
+-   Hier ist die Annahme, dass den Menschen etwas fehlt, kritisches Denken, Aufmerksamkeit oder Fähigkeiten
+
+-   Aber Menschen sind grundsätzlich skeptisch gegenüber neuen Informationen und sind dazu in der Lage, neues mit bisherigem Wissen abzugleichen
+:::
+
+## Warum glauben Menschen an Misinformation?
+
+### Erklärung 2: Motivation
+
+![](images/ecker.png){width="800"}
+
+$\rightarrow$ politische oder soziale Motivation
+
+$\rightarrow$ politische Asymmetrie
+
+::: footer
+Bail, [2020](https://press.princeton.edu/books/paperback/9780691241401/breaking-the-social-media-prism?_gl=1*1sm9nvg*_up*MQ..*_ga*OTczODAyMzg1LjE3MTUxNzY3NDE.*_ga_N1W9JWKLY3*MTcxNTE3Njc0MC4xLjAuMTcxNTE3Njc0MC4wLjAuMjA1NDI4OTg1OQ); Bor & Petersen, [2021](https://www.cambridge.org/core/journals/american-political-science-review/article/abs/psychology-of-online-political-hostility-a-comprehensive-crossnational-test-of-the-mismatch-hypothesis/C721597EEB77CC8F494710ED631916E4); Ecker et al., [2023](https://www.nature.com/articles/s44159-021-00006-y); Petersen et al., [2020](https://psyarxiv.com/6m4ts/).
+:::
+
+::: notes
+-   Aber, wenn bisheriges Wissen schon verzerrt ist, gibt es keine guten Abwehrmechanismen mehr
+
+-   Viel wahrscheinlicher ist daher, dass eine motivierte Minderheit schon bestimmte Einstellungen hat Misinformation konsumiert und verbreitet 
+
+-   Menschen tendieren grundsätzlich dazu, Informationen herauszusuchen und zu verarbeiten, die mit ihren Einstellungen oder ihren sozialen Zirkeln übereinstimmen
+
+-   Diese Prozess nennt man "Motivated Reasoning"
+
+-   Deshalb ist der stärkste Faktor, warum Menschen an Misinformation glauben ihre politische Einstellung 
+
+-   Bei ganz extremen User:innen geht es auch oft nicht mehr um den Wahrheitsgehalt, sondern um den Protest
+
+-   Menschen teilen falsche Informationen, um Chaos zu stiften oder um einen Punkt zu machen
+
+-   Aber, Misinformation ist tendenziell ein rechtes Problem
+
+-   Viele Verschwörungstheorien kommen aus antisemitischen Kreisen
+
+-   Dahinter stecken oft rechtsextreme Einstellungen, Misstrauen in die Medien und demokratische Institutionen 
+
+:::
+
+## Was ist die Rolle von Emotionen?
+
+-   Mehr Wut und weniger Freude in Reaktion auf Misinformation
+
+![](images/curvi-linear.svg){width="800"}
+
+::: fragment
+-   Menschen mit **guter und schlechter Urteilsfähigkeit** werden wütend
+
+$\rightarrow$ Funktion von Emotionen hängt von existierenden Einstellungen ab
+:::
+
+::: footer
+Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/)
+:::
+
+::: notes
+-   In Experimenten aber auch wenn wir uns Daten aus sozialen Medien anschauen sehen wir immer dasselbe Muster: mehr Wut und weniger Freude
+-   Aber: Emotionen machen nicht grundsätzlich dumm
+-   Insbesondere bei Aufständen von diskriminierten Minderheiten stigmatisiert
+-   In einer Studie haben wir herausgefunden, dass Menschen die an Misinformation glauben wütend werden, aber auch Menschen die gut darin waren es zu erkennen
+-   Die haben dann sowas gesagt wie "Bullshit"
+-   Also sehen wir auch hier dass die Effekte von Misinformation von existierenden Einstellungen abhängen
+:::
+
+# PART III: Wie können wir die Verbreitung von Misinformation eindämmen?
+
+## Interventionen: Prebunking
+
+::: columns
+::: {.column width="50%"}
+-   Nudges
+
+    -   Wahrheitsgehalt
+
+    -   Quellen
+
+-   Medienkompetenz
+
+    -   logikbasiert
+
+    -   gamified, z.B. inoculation
+:::
+
+::: {.column width="50%"}
+::: fragment
+**+** Skalierbarkeit
+
+**-** Reduktion von zuverlässigen Informationen
+
+**-** Kleine Effekte
+
+**-** Negative Spillover-Effekte
+:::
+:::
+:::
+
+::: footer
+Lewandowsky & van der Linden [2021](https://www.tandfonline.com/doi/abs/10.1080/10463283.2021.1876983); van der Meer et al., [2023](https://www.tandfonline.com/doi/full/10.1080/1461670X.2023.2187652).
+:::
+
+## Interventionen: Debunking
+
+::: columns
+::: {.column width="50%"}
+-   Factchecking
+
+    -   Experten: unabhängige Organisationen & als Teil von Redaktionen
+
+    -   Crowdsourced: Birdwatch
+:::
+
+::: {.column width="50%"}
+::: fragment
+**+** Überprüfung von politischen Akteur:innen
+
+**-** Überprüfung von extremen Fällen
+
+**-** Kleine Effekte & sogar Backfire-Effekte in Zielgruppe
+
+**-** Reaktionär & nicht sehr skalierbar
+:::
+:::
+:::
+
+::: footer
+Allen et al., [2022](https://dl.acm.org/doi/abs/10.1145/3491102.3502040); Altay, [2022](https://psyarxiv.com/sm3vk/); Hameleers & van der Meer, [2020](https://journals.sagepub.com/doi/full/10.1177/0093650218819671).
+:::
+
+::: notes
+-   politische Akteur:innen werden von unabhängigen Organisationen überprüft
+-   aber: preaching to the choir?
+-   crowdsourced factchecking macht es skalierbar, aber ist das gut für den politischen Zusammenhalt?
+:::
+
+## Interventionen: Systemisch
+
+-   Transparenzpflichten und Regulierung von sozialen Medien und Suchmaschinen
+
+-   Stärkung von unabhängigen Medien und zuverlässigen Informationen
+
+-   Politische Bildung und Extremismus-Prävention
+
+::: fragment
+### $\rightarrow$ Kombination an Interventionen? 
+:::
+
+::: notes
+-   soziale Medien: Algorithmen auditen, Daten freigeben
+-   Medien: Länder mit öffentlich-rechtlichem haben weniger ein Problem mit Misstrauen in die Medien, und Länder mit Korruption ein größeres Problem
+-   Vertrauen in die Medien schaffen und die Radikalisierung von politischen Gruppen reduzieren
+:::
+
+
+# Abschluss
+
+## Letzte Worte 
+
+-   Starker Fokus auf extreme Formen von Misinformation 
+
+-   Aber weniger extreme, alltägliche Dekontextualisierungen haben nachhaltigere Effekte
+
+::: fragment
+
+$\rightarrow$ Nicht der Wahrheitsgehalt ist schädlich, sondern die Inhalte!
+
+:::
+
+::: fragment
+
+$\rightarrow$ Misinformation ist ein perfektes Instrument, um schädliche Inhalte zu verbreiten
+
+:::
+
+::: footer
+Hameleers et al., [2021](https://www.tandfonline.com/doi/full/10.1080/1369118X.2021.2021270);
+Luehring et al., *in prep*
+:::
+
+::: notes
+-   Probleme in der interdisziplinären Forschung: Wie definiere ich Misinformation? Kann ich das selbst machen oder brauche ich dafür Expert:innen?
+
+-   Meinungsinhalte
+::: 
+
+
+# Fragen?
+
+
+
+# Diskussion
+
+::: notes
+
+1.  Ist Misinformation wirklich das größte Problem, das wir gerade haben? Oder ist es eher ein Symptom?
+
+2.  Wer ist in der Verantwortung?
+
+3.  Kombination an Interventionen?
+
+:::
+

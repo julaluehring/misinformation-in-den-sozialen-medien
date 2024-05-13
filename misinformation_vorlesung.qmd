@@ -66,14 +66,11 @@ Mail: [jula.luehring\@univie.ac.at](jula.luehring@univie.ac.at)
 :::
 
 ::: {.column width="40%"}
-::: fragment
--   Trennung von Mis- und Desinformation eher künstlich
+-   Trennung von Mis- und Desinformation
 
 -   Fake News als Subtyp von Desinformation
 
 -   Fokus auf Schädlichkeit
-:::
-
 :::
 :::
 
@@ -108,6 +105,8 @@ $\rightarrow$ Aber: Fake News inzwischen eher ein politisiertes Buzzword!
 -   Hier werden Formen wie Satire und Parodien mit einbegriffen, aber auch Pseudojournalismus und Werbung, die oft ökonomischen Interessen folgen
 
 -   Tatsächlich gibt es aber auch sehr viele Formen in der Mitte: dekontextualisierte Informationen und die meisten Meinungsartikel
+
+-   Fake News eher ein politisches Schlachtwort 
 :::
 
 ## Wie sieht das in der Praxis aus?
@@ -138,7 +137,6 @@ $\rightarrow$ politisch motivierte Desinformationskampagnen
 
 ### Auf individueller Ebene
 
-::: incremental
 -   kognitiv (Effekte auf Wissen)
 
 -   einstellungsbezogen (Effekte auf Meinungen)
@@ -146,7 +144,6 @@ $\rightarrow$ politisch motivierte Desinformationskampagnen
 -   emotional (Effekte auf Gefühle)
 
 -   Verhalten
-:::
 
 ::: footer
 Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Guess et al., [2022](https://doi.org/10.37016/mr-2020-004); Moeller et al., [2020](https://www.die-medienanstalten.de/fileadmin/user_upload/die_medienanstalten/Service/Ver%C3%B6ffentlichungen/Gutachten/GVK_Gutachten_final_WEB_bf.pdf)
@@ -166,13 +163,11 @@ Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Guess et al., [
 
 ### Auf gesellschaftlicher Ebene
 
-::: incremental
 -   gruppenbezogene Wahrnehmungsverzerrungen
 
 -   Mobilisierung und Spaltung
 
 -   Zynismus & verringertes Vertrauen in die Medien und demokratische Institutionen
-:::
 
 ::: footer
 Scheufele et al., [2020](https://issues.org/covid-19-communication-war/); van der Meer et al., [2023](https://doi.org/10.1080/1461670X.2023.2187652); Weikmann et al., [2024](https://doi.org/10.1177/19401612241233539)
@@ -218,7 +213,6 @@ Allcott & Gentzkow, [2017](https://pubs.aeaweb.org/doi/10.1257/jep.31.2.211); Al
 
 ## Und wie hat sich das mit den sozialen Medien verändert?
 
-::: incremental
 -   Ursprung von Misinformation liegt nicht in sozialen Medien, aber existierende Mechanismen werden eventuell verstärkt:
 
     -   Negative und aufbrausende Emotionen
@@ -226,7 +220,6 @@ Allcott & Gentzkow, [2017](https://pubs.aeaweb.org/doi/10.1257/jep.31.2.211); Al
     -   Popularitätssignale
 
     -   Superspreader
-:::
 
 ::: fragment
 $\rightarrow$ Überlappt mit Hassrede und Konflikt zwischen sozialen Gruppen
@@ -291,7 +284,7 @@ Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Guess et al., [
 
 ::: notes
 -   Daher würde ich diese Effekte relativieren und sagen, dass es kaum Effekte auf die Allgemeinheit gibt, aber sehr starke Effekte auf kleine Gruppen, die sowieso schon anfällig dafür sind
--   Gleichzeitig 
+-   Gleichzeitig sehen wie wir in dem Ranking ganz am Anfang, dass Misinformation als großes Risiko wahrgenommen wird und dass Menschen zunehmend 
 -   Wir gucken jetzt mal warum das so ist
 :::
 
@@ -356,11 +349,11 @@ Bail, [2020](https://press.princeton.edu/books/paperback/9780691241401/breaking-
 
 :::
 
-## Was ist die Rolle von Emotionen?
+## Machen Emotionen Menschen dumm?
 
 -   Mehr Wut und weniger Freude in Reaktion auf Misinformation
 
-![](images/curvi-linear.svg){width="800"}
+![](images/curvi-linear.svg){width="1000"}
 
 ::: fragment
 -   Menschen mit **guter und schlechter Urteilsfähigkeit** werden wütend
@@ -387,11 +380,11 @@ Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/)
 
 ::: columns
 ::: {.column width="50%"}
--   Nudges
+-   Accuracy nudges
 
-    -   Wahrheitsgehalt
+    -   Wahrheitsgehalt und Quellen überprüfen
 
-    -   Quellen
+    -   Teilen
 
 -   Medienkompetenz
 
@@ -401,7 +394,35 @@ Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/)
 :::
 
 ::: {.column width="50%"}
-::: fragment
+![](images/covid-banner.jpg){width="400"}
+:::
+:::
+
+::: notes
+-   Nudges sind Warnhinweise oder so Banner wie man es im Kontext von COVID gesehen hat
+
+-   Das passiert aber nur bei bestimmten Themen, zum Nahostkonflikt nicht 
+:::
+
+## Interventionen: Prebunking
+
+::: columns
+::: {.column width="50%"}
+-   Accuracy nudges
+
+    -   Wahrheitsgehalt und Quellen
+
+    -   Teilen
+
+-   Medienkompetenz
+
+    -   logikbasiert
+
+    -   gamified, z.B. [Go Viral!](https://inoculation.science/inoculation-games/go-viral/) oder [Bad News](https://inoculation.science/inoculation-games/bad-news/)  
+:::
+
+::: {.column width="50%"}
+
 **+** Skalierbarkeit
 
 **-** Reduktion von zuverlässigen Informationen
@@ -409,7 +430,7 @@ Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/)
 **-** Kleine Effekte
 
 **-** Negative Spillover-Effekte
-:::
+
 :::
 :::
 
@@ -423,7 +444,7 @@ Lewandowsky & van der Linden [2021](https://www.tandfonline.com/doi/abs/10.1080/
 ::: {.column width="50%"}
 -   Factchecking
 
-    -   Experten: unabhängige Organisationen & als Teil von Redaktionen
+    -   Expert:innen: unabhängige Organisationen (mimikama, Correctiv) oder als Teil von Redaktionen (APA, faktenfinder)
 
     -   Crowdsourced: Birdwatch
 :::
@@ -449,6 +470,7 @@ Allen et al., [2022](https://dl.acm.org/doi/abs/10.1145/3491102.3502040); Altay,
 -   politische Akteur:innen werden von unabhängigen Organisationen überprüft
 -   aber: preaching to the choir?
 -   crowdsourced factchecking macht es skalierbar, aber ist das gut für den politischen Zusammenhalt?
+-   automatisierte Verfahren scheitern leider 
 :::
 
 ## Interventionen: Systemisch
@@ -496,7 +518,7 @@ Luehring et al., *in prep*
 :::
 
 ::: notes
--   Probleme in der interdisziplinären Forschung: Wie definiere ich Misinformation? Kann ich das selbst machen oder brauche ich dafür Expert:innen?
+-   Dilemma in der interdisziplinären Forschung: Wie definiere ich Misinformation? Kann ich das selbst machen oder brauche ich dafür Expert:innen?
 
 -   Meinungsinhalte
 ::: 
@@ -514,7 +536,7 @@ Luehring et al., *in prep*
 
 2.  Wer ist in der Verantwortung?
 
-3.  Kombination an Interventionen?
+3.  Was passiert nun mit KI? 
 
 :::
 

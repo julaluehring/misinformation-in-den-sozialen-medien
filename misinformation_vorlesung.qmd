@@ -262,6 +262,7 @@ Brennen et al., [2020](https://reutersinstitute.politics.ox.ac.uk/types-sources-
 -   Wir sehen also auch in den sozialen Medien, dass nur 1% der User:innen den Großteil an Misinformation teilt
 -   Das sind oft Politiker:innen selbst oder extreme Superspreader
 -   Hier wiederholt sich also die Frage: Sind das wirklich die Algorithmen oder ist das ein Eliten-Problem, das wir auch offline haben?
+-   eine tief philosophische Frage die schwer empirisch zu messen ist 
 :::
 
 ## Mögliche Konsequenzen von Misinformation
@@ -284,7 +285,7 @@ Altay et al., [2023](https://doi.org/10.1177/20563051221150412); Guess et al., [
 
 ::: notes
 -   Daher würde ich diese Effekte relativieren und sagen, dass es kaum Effekte auf die Allgemeinheit gibt, aber sehr starke Effekte auf kleine Gruppen, die sowieso schon anfällig dafür sind
--   Gleichzeitig sehen wie wir in dem Ranking ganz am Anfang, dass Misinformation als großes Risiko wahrgenommen wird und dass Menschen zunehmend 
+-   Gleichzeitig sehen wie wir in dem Ranking ganz am Anfang, dass Misinformation als großes Risiko wahrgenommen wird und dass Menschen zunehmend verunsichert sind (sekundäre Effekte)
 -   Wir gucken jetzt mal warum das so ist
 :::
 
@@ -372,6 +373,7 @@ Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/)
 -   In einer Studie haben wir herausgefunden, dass Menschen die an Misinformation glauben wütend werden, aber auch Menschen die gut darin waren es zu erkennen
 -   Die haben dann sowas gesagt wie "Bullshit"
 -   Also sehen wir auch hier dass die Effekte von Misinformation von existierenden Einstellungen abhängen
+-   Und in einer anderen Studie, die ich gerade durchführe sehen wir, dass Emotionen in Misinformation einfach gespiegelt werden 
 :::
 
 # PART III: Wie können wir die Verbreitung von Misinformation eindämmen?
@@ -382,7 +384,7 @@ Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/)
 ::: {.column width="50%"}
 -   Accuracy nudges
 
-    -   Wahrheitsgehalt und Quellen überprüfen
+    -   Wahrheitsgehalt und Quellen
 
     -   Teilen
 
@@ -390,7 +392,7 @@ Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/)
 
     -   logikbasiert
 
-    -   gamified, z.B. inoculation
+    -   gamified, z.B. [Go Viral!](https://inoculation.science/inoculation-games/go-viral/) oder [Bad News](https://inoculation.science/inoculation-games/bad-news/)
 :::
 
 ::: {.column width="50%"}
@@ -425,11 +427,11 @@ Luehring\*, Shetty\*, et al., [2023](https://psyarxiv.com/udqms/)
 
 **+** Skalierbarkeit
 
-**-** Reduktion von zuverlässigen Informationen
-
 **-** Kleine Effekte
 
 **-** Negative Spillover-Effekte
+
+**-** Reduktion von zuverlässigen Informationen
 
 :::
 :::
@@ -521,6 +523,8 @@ Luehring et al., *in prep*
 -   Dilemma in der interdisziplinären Forschung: Wie definiere ich Misinformation? Kann ich das selbst machen oder brauche ich dafür Expert:innen?
 
 -   Meinungsinhalte
+
+-   KI?
 ::: 
 
 

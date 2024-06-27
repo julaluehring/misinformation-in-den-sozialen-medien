@@ -1,6 +1,9 @@
 # History files
 .Rhistory
 .Rapp.history
+.DS_Store
+.DS_Store/
+.Rhistory
 
 # Session Data files
 .RData
